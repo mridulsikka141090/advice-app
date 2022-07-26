@@ -1,0 +1,80 @@
+.advice-app {
+    background-color: hsl(218, 23%, 16%);
+}
+
+.parent {
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 35rem !important;
+}
+
+.card {
+    text-align: center;
+    border-radius: 15px !important;
+    background-color: hsl(217, 19%, 24%);
+    border: none !important;
+    -webkit-box-shadow: 1px 1px 5px 1px #262626;
+    box-shadow: 1px 1px 5px 1px #262626;
+}
+
+.card-title {
+    font-family: "Manrope";
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: hsl(150, 100%, 66%);
+    font-size: 12px;
+}
+
+.card-text {
+    font-family: "Manrope";
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+    font-weight: 800;
+    padding: 15px 35px 15px 35px;
+}
+
+.divider {
+    margin-bottom: 30px;
+}
+
+.dice-container {
+    position: absolute;
+    bottom: -25px;
+    left: 45.3%;
+    height: 50px;
+    width: 50px;
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+}
+
+.dice-active {
+    box-shadow: 0px 0px 10px 10px hsl(150deg 100% 66% / 61%);
+}
+
+@media only screen and (max-width: 560px) {
+
+    .dice-container {
+        left: 45%;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .dice-container {
+        left: 43%;
+    }
+}
+
+
+@media only screen and (min-width: 560px) {
+    .card {
+        width: 35rem !important;
+    }
+}
+
+.dice {
+    position: absolute;
+    top: 11px;
+    left: 13px;
+}
