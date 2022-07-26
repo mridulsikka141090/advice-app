@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/advice-app/static/css/main.528de997.css",
+    "main.js": "/advice-app/static/js/main.b039f612.js",
+    "static/media/Manrope-VariableFont_wght.ttf": "/advice-app/static/media/Manrope-VariableFont_wght.cae461b0196986f4250c.ttf",
+    "index.html": "/advice-app/index.html",
+    "main.528de997.css.map": "/advice-app/static/css/main.528de997.css.map",
+    "main.b039f612.js.map": "/advice-app/static/js/main.b039f612.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.528de997.css",
+    "static/js/main.b039f612.js"
+  ]
+}
